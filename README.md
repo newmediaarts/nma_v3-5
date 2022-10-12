@@ -26,7 +26,8 @@ or:
 ``` npx @11ty/eleventy --serve ```
 
 ## To-do Wish List
-* add docs (improve the readme for now)
+* need to fix github pages (not working)
+* figure out a system for docs (improve the readme for now)
 * establish a baseline multi-page site with content from [existing nma website](https://kccnma.site/)
 * migrate/copy over content from [latest nma wordpress site](https://kccnma.site/home)
 * create reusable components/partials (need to establish how to best to do, e.g. nunjucks blocks or macros etc.)
