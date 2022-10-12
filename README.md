@@ -10,6 +10,13 @@ Another static version of the NMA site, built/staticly generated using [11ty](ht
     * html includes (via [nunjucks](https://mozilla.github.io/nunjucks/)/liquid)
     * html files with mixed front matter + markup (thank you eleventy)
 
+##  Local pre-requisites:
+Make sure you have node and npm installed. See installation docs: (https://nodejs.org/en/). To confirm node and npm are installed:
+```
+    node -v
+    npm -v
+```
+
 ## To install, setup, & serve locally
 
 ``` npm run dev ```
