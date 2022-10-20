@@ -1,7 +1,7 @@
 # NMA v3.5 - A Simplified Eleventy Static Site
 Another static version of the NMA site, built/staticly generated using [11ty](https://www.11ty.dev/), but this one is designed to be bare bones simple and 100% pre-rendered (e.g. no native web components).
 
-[View Demo on Github Pages](https://newmediaarts.github.io/nma_v3-5/) - (not working)
+[View Demo on Github Pages](https://newmediaarts.github.io/nma_v3-5/)
 
 ## Goals/Constraints:
 * minimal config (easy to understand and get up and running right out of the box)
@@ -26,7 +26,7 @@ or:
 ``` npx @11ty/eleventy --serve ```
 
 ## To-do Wish List
-* need to fix github pages (not working)
+* ~~need to fix github pages (not working)~~
 * figure out a system for docs (improve the readme for now)
 * establish a baseline multi-page site with content from [existing nma website](https://kccnma.site/)
 * migrate/copy over content from [latest nma wordpress site](https://kccnma.site/home)
