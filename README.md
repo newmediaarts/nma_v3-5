@@ -39,3 +39,10 @@ Heads up: if you do not have 11ty installed globally, you will be prompted to do
 * add support for taxonomy collections (e.g. categories + tags ) if we add any of the following sections/features:
     * nma news (blog)
     * nma gallery (of student projects)
+
+## Dev Log
+* 10-19-2022
+    * fixed github pages
+    * moved all site pages into a pages/ directory
+    * added a _base.html layout (to include the _head.html and _foot.html)
+    * renamed the relative path prefixer include to "relPathPrefix"
