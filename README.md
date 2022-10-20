@@ -3,12 +3,14 @@ Another static version of the NMA site, built/staticly generated using [11ty](ht
 
 [View Demo on Github Pages](https://newmediaarts.github.io/nma_v3.5/)
 
+
 ## Goals/Constraints:
 * minimal config (easy to understand and get up and running right out of the box)
-* support for relative paths via a found "Relbase" liquid hack/work-around (e.g. enabling the site to be staticly hosted in any sub-directory)
+* support for relative paths via a found "relPathPrefix" liquid hack/work-around (e.g. enabling the site to be staticly hosted in any sub-directory)
 * Other key features:
-    * html includes (via [nunjucks](https://mozilla.github.io/nunjucks/)/liquid)
-    * html files with mixed front matter + markup (thank you eleventy)
+    * .html files with a mix of front matter + markup (via [11ty](https://www.11ty.dev/))
+    * .html templating/includes (via 11ty + [nunjucks](https://mozilla.github.io/nunjucks/)/liquid)
+
 
 ##  Local pre-requisites:
 Make sure you have node and npm installed. See installation docs: (https://nodejs.org/en/). To confirm node and npm are installed:
@@ -17,19 +19,19 @@ Make sure you have node and npm installed. See installation docs: (https://nodej
     npm -v
 ```
 
+
 ## To install, setup, & serve locally
 
 ``` npm run dev ```
 
-or:
+Heads up: if you do not have 11ty installed globally, you will be prompted to do so.
 
-``` npx @11ty/eleventy --serve ```
 
 ## To-do Wish List
-* ~~need to fix github pages (not working)~~
-* figure out a system for docs (improve the readme for now)
-* establish a baseline multi-page site with content from [existing nma website](https://kccnma.site/)
-* migrate/copy over content from [latest nma wordpress site](https://kccnma.site/home)
+* figure out a system for documentation
+    * for now: use the readme and [styleguide](https://newmediaarts.github.io/nma_v3.5/styleguide/) page
+* establish a baseline multi-page site and migrate all content over from [existing nma website](https://kccnma.site/)
+    * also migrate/copy over new content from [latest nma wordpress site](https://kccnma.site/home)
 * create reusable components/partials (need to establish how to best to do, e.g. nunjucks blocks or macros etc.)
 * add support for sass
 * add prettier and vs code workspace settings to ensure consistent formatting (temp fix = disable auto-format-on-save via VS Code manually, for now)

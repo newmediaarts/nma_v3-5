@@ -1,10 +1,10 @@
 
 module.exports = function (eleventyConfig) {
 
-    eleventyConfig.addPassthroughCopy('src/css');
-    eleventyConfig.addPassthroughCopy('src/js');
-    eleventyConfig.addPassthroughCopy('src/img');
-    eleventyConfig.addPassthroughCopy('src/video');
+    eleventyConfig.addPassthroughCopy({ 'src/css': 'css' });
+    eleventyConfig.addPassthroughCopy({ 'src/js': 'js' });
+    eleventyConfig.addPassthroughCopy({ 'src/img': 'img' });
+    eleventyConfig.addPassthroughCopy({ 'src/video': 'video' });
 
     eleventyConfig.setLiquidOptions({
         dynamicPartials: false,
@@ -13,7 +13,9 @@ module.exports = function (eleventyConfig) {
 
     return {
         dir: {
-            input: 'src',
+            input: 'src/pages',
+            includes: "../_includes",
+            layouts: '../_includes/layouts',
             output: 'dist'
         }
 

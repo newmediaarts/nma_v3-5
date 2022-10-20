@@ -1,4 +1,3 @@
-{% include _relative-base.html %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,7 +11,7 @@
 
     <link rel="stylesheet" href="https://use.typekit.net/imp2bsl.css">
 
-    <link href="{{ relBase }}css/style.css" rel="stylesheet" type="text/css" />
+    <link href="{{ relPathPrefix }}css/style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -23,7 +22,7 @@
             <a href="https://www.kapiolani.hawaii.edu/">Kapi‘olani Community College</a>
         </span>
         <span class="nmalogo">
-            <a href="{{ relBase }}index.html">New Media Arts</a>
+            <a href="{{ relPathPrefix }}index.html">New Media Arts</a>
         </span>
     </h1>
     {% include _site-navigation.html %}
