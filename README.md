@@ -1,7 +1,9 @@
 # 11ty Staic Site Starter for Codesandbox
 Another starter site setup, this one built/staticly generated using [11ty](https://www.11ty.dev/)and designed to be bare bones simple, 100% pre-rendered (e.g. no native web components), and editable via codesandox.
 
-[View Demo on Github Pages](https://kccnma.github.io/11ty-starter-codesandbox/)
+[View Demo on Github Pages](https://kccnma.github.io/11ty-starter-codesandbox/dist/)
+
+[View Project on CodeSandbox](https://codesandbox.io/p/github/kccnma/11ty-starter-codesandbox/)
 
 
 ## Goals/Constraints:
@@ -10,4 +12,8 @@ Another starter site setup, this one built/staticly generated using [11ty](https
 * Other key features:
     * .html files with a mix of front matter + markup (via [11ty](https://www.11ty.dev/))
     * .html templating/includes (via 11ty + [nunjucks](https://mozilla.github.io/nunjucks/)/liquid)
+    
+## To Edit
+- Go to Open Project on [CodeSandbox](https://codesandbox.io/p/github/kccnma/11ty-starter-codesandbox/)
+- Create a Branch > Commit/Push your branch > Submit a Pull Request
 
