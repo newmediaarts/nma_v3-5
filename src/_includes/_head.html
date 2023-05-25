@@ -3,11 +3,13 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>11ty Starter | {{ title }}</title>
+    <title>New Media Arts | {{ title }}</title>
     <meta name="description"
         content="11ty Test1: a minimalistic HTML + CSS + JS 11ty setup for simple web site projects." />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="stylesheet" href="https://use.typekit.net/imp2bsl.css">
 
     <link href="{{ relPathPrefix }}css/style.css" rel="stylesheet" type="text/css" />
 </head>
@@ -17,10 +19,10 @@
 <header class="site-header">
     <h1 class="site-id">
         <span class="kcclogo">
-            <a href="#">Parent Logo</a>
+            <a href="https://www.kapiolani.hawaii.edu/">Kapi‘olani Community College</a>
         </span>
         <span class="nmalogo">
-            <a href="{{ relPathPrefix }}index.html">Child Logo</a>
+            <a href="{{ relPathPrefix }}index.html">New Media Arts</a>
         </span>
     </h1>
     {% include _site-navigation.html %}
